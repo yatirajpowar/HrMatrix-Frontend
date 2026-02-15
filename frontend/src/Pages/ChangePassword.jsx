@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/authContext";
-import { authAPI } from "../services/api";
+import { authAPI } from "../Services/Api";
 import { Lock, Eye, EyeOff } from "lucide-react";
 
 export default function ChangePassword() {

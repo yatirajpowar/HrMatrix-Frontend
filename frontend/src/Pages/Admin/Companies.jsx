@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeft, Plus, Edit2, Trash2 } from "lucide-react";
-import { adminAPI } from "../../services/api";
+import { adminAPI } from "../../Services/Api";
 
 const AdminCompanies = () => {
   const navigate = useNavigate();

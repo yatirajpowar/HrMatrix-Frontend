@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeft, Check, X } from "lucide-react";
-import { hrAPI } from "../../services/api";
+import { hrAPI } from "../../Services/Api";
 
 const HRLeaves = () => {
   const navigate = useNavigate();

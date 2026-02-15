@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeft, TrendingUp } from "lucide-react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
-import { adminAPI } from "../../services/api";
+import { adminAPI } from "../../Services/Api";
 
 const Analytics = () => {
   const navigate = useNavigate();

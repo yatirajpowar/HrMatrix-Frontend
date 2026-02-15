@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeft, Plus } from "lucide-react";
-import { employeeAPI } from "../../services/api";
+import { employeeAPI } from "../../Services/Api";
 
 const EmployeeLeaves = () => {
   const navigate = useNavigate();

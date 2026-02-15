@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { LogOut, Home, Calendar, User, Save, X } from "lucide-react";
-import { employeeAPI } from "../../services/api";
+import { employeeAPI } from "../../Services/Api";
 import { useAuth } from "../../context/authContext";
 
 const EmployeeProfile = () => {

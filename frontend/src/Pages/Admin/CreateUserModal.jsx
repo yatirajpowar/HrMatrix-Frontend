@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { X } from "lucide-react";
-import { authAPI } from "../../services/api";
+import { authAPI } from "../../Services/Api";
 
 const roles = [
   { value: "EMPLOYEE", label: "Employee" },

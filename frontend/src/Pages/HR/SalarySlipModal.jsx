@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { X, Download } from "lucide-react";
-import { hrAPI } from "../../services/api";
+import { hrAPI } from "../../Services/Api";
 
 const SalarySlipModal = ({ employeeId, employeeName, onClose }) => {
   const [loading, setLoading] = useState(true);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { LogOut, Users, Calendar, Home, Clock } from "lucide-react";
-import { hrAPI } from "../../services/api";
+import { hrAPI } from "../../Services/Api";
 import { useAuth } from "../../context/authContext";
 import Events from "./Events";
 

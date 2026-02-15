@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { authAPI } from "../services/api";
+import { authAPI } from "../Services/Api";
 
 const ResetPassword = () => {
   const [password, setPassword] = useState("");

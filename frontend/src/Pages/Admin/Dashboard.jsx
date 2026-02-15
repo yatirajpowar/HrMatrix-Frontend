@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { LogOut, Users, Building, Home, TrendingUp, User, UserPlus } from "lucide-react";
-import { adminAPI } from "../../services/api";
+import { adminAPI } from "../../Services/Api";
 import { useAuth } from "../../context/authContext";
 
 const AdminDashboard = () => {

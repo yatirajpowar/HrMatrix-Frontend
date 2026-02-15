@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Calendar, Trash2, Plus, X } from "lucide-react";
-import { hrAPI } from "../../services/api";
+import { hrAPI } from "../../Services/Api";
 
 const Events = () => {
   const [events, setEvents] = useState([]);
